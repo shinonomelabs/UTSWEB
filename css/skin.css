@@ -1,0 +1,282 @@
+/*CSS FULL KONTROL*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ROBOTO FONT*/
+@font-face {
+font-family: 'Roboto';
+src: url("font/Roboto.ttf");
+src: url("font/Roboto.ttf") format("truetype");
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:active {
+	color: #fff;
+}
+
+
+body {
+	background-color: #f8f8f8;
+	font: 16/28px, 'Roboto',Noto, helvetica, arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+}
+
+.top_navigasi {
+	z-index: 999;
+	box-shadow: 0 5px 5px rgba(6,6,6,0.26);
+	position: fixed;
+	width: 100%;
+
+}
+.grad {
+	background: linear-gradient(to right, #297eb5 , #34acc7);
+
+}
+.judul {
+	width: 1200px;
+	margin: auto;
+	padding: 10px;
+}
+.judul h1 a {
+	float: left;
+	font-family: trajan pro;
+	font-weight: bold;
+	font-size: 29px;
+	text-decoration: none;
+}
+.judul h1 a:active {
+	color: #fff;
+}
+.judul h1 a:visited {
+	color: #fff;
+}
+.searching input {
+	background-color: #f8f8f8;
+	margin-left: 120px;
+	float: left;
+	width: 600px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	padding :5px 5px 5px 5px;
+}
+	.tombol button {
+		position: absolute;
+		margin-left: 680px;
+		width: 20px;
+		background-image: url(icon/cari.png);
+		background-repeat: no-repeat;
+		background-size: 2px;
+		background-position: center;
+		display: inline-block;
+		background-color: #ebedf0;
+		border : none;
+		outline: none;
+		cursor: pointer;
+		padding: 17px 27px 8px 27px;
+	}
+
+.wadah {
+	width: 1220px;
+	margin: auto;
+
+}
+.sidebar_left {
+	overflow: hidden;
+	position: fixed;
+	margin-top: 70px;
+	width: 175px;
+	height: 600px;
+	float: left;
+}
+
+.list {
+	cursor: pointer;
+	border:none;
+	z-index: 1;
+	background: linear-gradient(to right, #297eb5 , #34acc7, #297eb5);
+	position: fixed;
+	margin-top: 50px;
+	width: 175px;
+	float: left;
+	box-shadow: 0 5px 5px rgba(6,6,6,0.26);
+
+}
+	.list h1 {
+		font-size: 16px;
+		padding: 3px;
+		text-decoration: none;
+		font-family: 'Roboto';
+		text-align: center;
+		color: #fff;
+	}
+
+.main {
+	width: 1000px;
+	margin-top: 50px;
+	float: right;
+	margin-bottom: 200px;
+}
+
+.lonte {
+	overflow: hidden;
+	margin: 30px 20px;
+	box-shadow: 0 2px 2px rgba(6,6,6,0.26);
+	width: 960px;
+	padding: 7px;
+
+}
+.lonte h2 {
+	margin: auto;
+}
+/*SLIDER JANG KONTEN */
+
+
+
+
+/*navbar*/
+	.backline {
+		padding: 5px;
+		margin-top: 13px;
+		margin-bottom: 4px;
+	}
+	.backline:after::hover{
+		background-color: black;
+	}
+	.backline a {
+		transition: 0.4s;
+		font-family: 'Roboto';
+		padding-left: 20px;
+		color : black;
+	}
+	.backline a:hover {
+		color: #ffffff;
+		padding-right: 71px;
+		background: linear-gradient(to right, #f8f8f8 , #34acc7);
+		padding-left: 50px;
+	}
+		.backline2 {
+		padding: 5px;
+		margin-bottom: 4px;
+	}
+	.backline2 a {
+		transition: 0.4s;
+		font-family: 'Roboto';
+		padding-left: 20px;
+		color : black;
+	}
+	.backline2 a:hover {
+		color: #ffffff;
+		padding-right: 71px;
+		background: linear-gradient(to right, #f8f8f8 , #34acc7);
+		padding-left: 50px;
+}
+/*slider*/
+.burix { float: left; width: 100%; }
+.burix .tumblrp { overflow: hidden; position: relative; height: 160px; background: black; }
+.burix .tumblrp img { display: block; position: relative; width: 100%; height: 100%; }
+.burix .tumblrp img:hover {opacity: 0.9;}
+.burix .tumblrp h3 { 
+	background-color: #34acc7;
+	max-height: 55px; 
+	position: absolute; bottom: -33px; 
+	height: 40px; 
+	border-bottom: 0; 
+	margin: 0; 
+	line-height: normal; 
+	padding: 10px 6px; 
+	padding-top: 6px;
+	font-size: 13px; 
+	font-weight: 700;
+	width: 100%; 
+	-webkit-transition: all 0.9s; 
+	text-transform: none;
+	 }
+.burix .tumblrp h3:hover{ height: 74px; line-height: normal; text-decoration: none; }
+.burix .tumblrp h3 a{ color: #EEEEEE; }
+.burix .tumblrp h3 a{ color: #FFF; text-decoration: none; display: block; }
+
+/*main konten*/
+.barang {
+	display: inline-block;
+	margin: 20px;
+	width: 160px;
+	height: 250px;
+	background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS KESET*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
