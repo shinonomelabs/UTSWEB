@@ -1,0 +1,372 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ROBOTO FONT*/
+@font-face {
+font-family: 'Roboto';
+src: url("font/Roboto.ttf");
+src: url("font/Roboto.ttf") format("truetype");
+}
+a {
+	text-decoration: none;
+}
+a:active {
+	color: black;
+}
+
+
+body {
+	background-color: #f1f1f1;
+	font: 16/28px, 'Roboto',Noto, helvetica, arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+}
+
+.top_navigasi {
+	z-index: 999;
+	box-shadow: 0 5px 5px rgba(6,6,6,0.26);
+	position: fixed;
+	width: 100%;
+
+}
+.grad {
+	background: linear-gradient(to right, #297eb5 , #34acc7);
+
+}
+.judul {
+	width: 1300px;
+	margin: auto;
+	padding: 10px;
+}
+.judul h1 a {
+	float: left;
+	font-family: trajan pro;
+	font-weight: bold;
+	font-size: 29px;
+	text-decoration: none;
+}
+.judul h1 a:active {
+	color: #fff;
+}
+.judul h1 a:visited {
+	color: #fff;
+}
+.searching input {
+	background-color: #f8f8f8;
+	margin-left: 120px;
+	margin-bottom: 7px;
+	float: left;
+	width: 600px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	padding :5px 5px 5px 5px;
+}
+	.tombol button {
+		position: absolute;
+		margin-left: 680px;
+		width: 20px;
+		background-image: url(icon/cari.png);
+		background-repeat: no-repeat;
+		background-size: 20px;
+		background-position: center;
+		display: inline-block;
+		background-color: #eaedf0;
+		border : none;
+		outline: none;
+		cursor: pointer;
+		padding: 17px 27px 8px 27px;
+	}
+
+.wadah {
+	width: 1320px;
+	margin: auto;
+
+}
+.sidebar_left {
+	overflow: hidden;
+	position: fixed;
+	margin-top: 70px;
+	width: 175px;
+	height: 600px;
+	float: left;
+}
+
+.list {
+	cursor: pointer;
+	border:none;
+	z-index: 1;
+	background: linear-gradient(to right, #297eb5 , #34acc7, #297eb5);
+	position: fixed;
+	margin-top: 50px;
+	width: 175px;
+	float: left;
+	box-shadow: 0 5px 5px rgba(6,6,6,0.26);
+
+}
+	.list h1 {
+		font-size: 16px;
+		padding: 3px;
+		text-decoration: none;
+		font-family: 'Roboto';
+		text-align: center;
+		color: #fff;
+	}
+
+.main {
+	width: 1100px;
+	margin-top: 50px;
+	float: right;
+	margin-bottom: 200px;
+}
+
+.lonte {
+	background-color: white;
+	overflow: hidden;
+	margin: 30px 20px;
+	box-shadow: 0 2px 2px rgba(6,6,6,0.26);
+	width: 960px;
+	padding: 7px;
+
+}
+.lonte h2 {
+	border-right: solid;
+	border-left: solid;
+	border-width: 8px;
+	border-color: #28c7ea;
+	color: white;
+	background: linear-gradient(to right, #297eb5 , #28c7ea, #297eb5);
+	padding: 8px;
+	width: cover;
+	margin: auto;
+}
+
+.banlist {
+	font-family: 'Roboto';
+	width: 100%;
+	text-align: center;
+}
+/*SLIDER JANG KONTEN */
+
+
+
+
+/*navbar*/
+	.backline {
+		padding: 5px;
+		margin-top: 13px;
+		margin-bottom: 4px;
+	}
+	.backline:after::hover{
+		background-color: black;
+	}
+	.backline a {
+		transition: 0.4s;
+		font-family: 'Roboto';
+		padding-left: 20px;
+		color : black;
+	}
+	.backline a:hover {
+		padding-right: 71px;
+		padding-left: 35px;
+	}
+		.backline2 {
+		padding: 5px;
+		margin-bottom: 4px;
+	}
+	.backline2 a {
+		transition: 0.4s;
+		font-family: 'Roboto';
+		padding-left: 20px;
+		color : black;
+	}
+	.backline2 a:hover {
+		padding-right: 71px;
+		padding-left: 35px;
+}
+/*slider*/
+.burix { float: left; width: 100%; }
+.burix .tumblrp { overflow: hidden; position: relative; height: 160px; background: black; }
+.burix .tumblrp img { display: block; position: relative; width: 100%; height: 100%; }
+.burix .tumblrp img:hover {opacity: 0.9;}
+.burix .tumblrp h3 { 
+	opacity: 0.9;
+	font-family: 'Roboto';
+	background-color: #34acc7;
+	max-height: 55px; 
+	position: absolute; bottom: -33px; 
+	height: 40px; 
+	border-bottom: 0; 
+	margin: 0; 
+	line-height: normal; 
+	padding: 10px 6px; 
+	padding-top: 6px;
+	font-size: 13px; 
+	font-weight: 700;
+	width: 100%; 
+	-webkit-transition: all 0.9s; 
+	text-transform: none;
+	 }
+.burix .tumblrp h3:hover{ height: 74px; line-height: normal; text-decoration: none; }
+.burix .tumblrp h3 a{ color: #EEEEEE; }
+.burix .tumblrp h3 a{ color: #FFF; text-decoration: none; display: block; }
+
+/*main konten*/
+.lier {
+	background-color: #fff;
+	margin: 30px 20px;
+	box-shadow: 0 2px 2px rgba(6,6,6,0.26);
+	width: 975px;
+
+}
+.hungkul ul .kenca {
+	display: inline-block;
+	overflow: hidden;
+	width: 480px;
+	height: 200px;
+	border-bottom: 2px dotted #eee;
+
+}
+
+.aing h3{
+	border-radius: 2px;
+	font-family: 'Roboto';
+	color: white;
+	background: linear-gradient(to right, #297eb5 , #28c7ea);
+	padding: 8px;
+	width: cover;
+}
+
+.hungkul {
+	width: 100%;
+}
+.gambar {
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: black;
+	float: left;
+	width: 150px;
+	height: 160px;
+}
+.gambar img {
+	cursor: pointer;
+	width: 100%; height: 100%; display: block; position: relative;
+}
+.gambar img:hover {
+	width: 110%; height: 110%; display: block; position: relative; box-shadow: 0 2px 2px rgba(6,6,6,0.26); 
+}
+.keterangan {
+	margin-top: 5px;
+	float: left;
+	margin-left: 10px;
+	font-family: 'Roboto';
+	width: 300px;
+	padding: 5px;
+	height: 160px;
+	line-height: normal;
+}
+.keterangan h2 a{ color: black;  font-size: 18px; }
+.keterangan h2 a:hover{ color: #28c7ea;  font-size: 18px; }
+.keterangan .Harga { height: 10px; margin-top: 20px; color: gold; }
+.akun { color: green; }
+.akun:active { color: green; }
+.akun:visited { color: green; }
+.akun:hover { color: green; }
+.deskrip { font-size: 15px; }
+
+
+
+.novelist {
+	background-color: #fff;
+	margin: 30px 20px;
+	box-shadow: 0 2px 2px rgba(6,6,6,0.26);
+	width: 975px;
+
+}
+.newnew
+
+
+.tahu:nth-child(4n+1), .tahu:nth-child(4n+1) { clear: left; }
+.tahu { width: 230px; float: left; margin: 6.82px; overflow: hidden; font-size: 13px; height: auto; background: #f8f8f8; border-bottom: 3px solid rgba(0,0,0,0.1); -webkit-transition: all 0.7s ease; }
+.tahu:hover { border-bottom: 3px solid #ff859f; }
+.tahu .thumbsz { overflow: hidden; height: 110px; background: #F6F6F6; }
+.tahu .thumbsz img { width: 100%; height: 100%; }
+.tahu .contx { padding: 10px; }
+.tahu .contx .titlr { position: relative; display: block; height: 22px; line-height: 21px; margin: 0; overflow: hidden; font-weight: 400; cursor: pointer; }
+.tahu .contx .titlr h2 { display: block; color: #444; position: relative; font-size: 13px; }
+.tahu .contx .titlr h2:hover { color: #ff859f; }
+.tahu .contx span { color: #8c8c8c; font-size: 12px; }
+ 
+ .nvermore a{
+ 	color: white;
+ 	margin-top: 5px;
+ 	margin-left: 910px;
+ 	font-family: 'Roboto';
+ 	font-size: 18px;
+ 	position: absolute;
+ }
+
+
+
+
+
+
+
+
+
+
+/*CSS KESET*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
